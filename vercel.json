@@ -1,8 +1,9 @@
 {
   "version": 2,
-  "name": "vercel-xhttp-relay",
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ],
-  "trailingSlash": false
+    {
+      "source": "/(.*)",
+      "destination": "http://video01.vpn1p.vpnssh.dpdns.org/$1"
+    }
+  ]
 }
