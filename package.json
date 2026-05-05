@@ -1,8 +1,8 @@
 {
+  "version": 2,
   "name": "vercel-xhttp-relay",
-  "version": "1.0.0",
-  "description": "edge",
-  "private": true,
-  "license": "MIT",
-  "type": "module"
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "trailingSlash": false
 }
