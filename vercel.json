@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://video01.vpn1p.vpnssh.dpdns.org/$1"
+      "destination": "http://cdn.pshconnect.shop/$1"
     }
   ]
 }
